@@ -19,6 +19,6 @@ os.makedirs("build", exist_ok=True)
 
 outfile = f"build/{name}_{version}.zip"
 
-subprocess.run(["zip", "-vr", outfile, f"{name}"])
+subprocess.run(["nanazipc", "a", outfile, f"{name}"])
 
 shutil.copy2(outfile, "mods_debug")

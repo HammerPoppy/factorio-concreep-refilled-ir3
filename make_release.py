@@ -16,4 +16,4 @@ version = data["version"]
 
 os.makedirs("build", exist_ok=True)
 
-subprocess.run(["zip", "-vr", f"build/{name}_{version}.zip", f"{name}"])
+subprocess.run(["nanazipc", "a", f"build/{name}_{version}.zip", f"{name}"])
