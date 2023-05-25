@@ -26,6 +26,5 @@
         "serpent",
         "__DebugAdapter",
         "__Profiler"
-    ],
-    "factorio.versions": [
+    ]
 }
