@@ -8,7 +8,7 @@ import subprocess
 
 os.chdir(os.path.dirname(__file__))
 
-name = "concreep-refilled"
+name = "concreep-refilled-ir3"
 
 f = open(f"{name}/info.json")
 text = f.read()

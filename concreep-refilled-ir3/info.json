@@ -1,0 +1,17 @@
+{
+  "name": "concreep-refilled-ir3",
+  "version": "1.0.0",
+  "title": "Concreep Refilled IR3",
+  "author": "Mylon, MarximusMaximus, Hammak",
+  "contact": "",
+  "homepage": "",
+  "description": "Roboports automatically place and upgrade concrete and landfill within their reach. IR3 version includes tarmac.",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.1.48", "IndustrialRevolution3"],
+  "package": {
+    "scripts": {
+      "compile": "/opt/conda/miniforge/bin/python ../make_debug.py",
+      "prepackage": "true"
+    }
+  }
+}
