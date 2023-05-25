@@ -21,4 +21,9 @@ outfile = f"build/{name}_{version}.zip"
 
 subprocess.run(["nanazipc", "a", outfile, f"{name}"])
 
-shutil.copy2(outfile, "mods_debug")
+# reading where (factorio mods folder probably) to put archive from settings.json 
+f_settings = open(f".vscode/settings.json")
+text_settings = f_settings.read()
+data_settings = json.loads(text_settings)
+
+shutil.copy2(outfile, data_settings["factorio_mods_dir"][0])

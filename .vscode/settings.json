@@ -1,4 +1,7 @@
 {
+    "factorio_mods_dir": [
+        "C:\\Users\\mekete\\AppData\\Roaming\\Factorio\\mods"
+    ],
     "cSpell.words": [
         "Busey",
         "concreep",
@@ -24,5 +27,5 @@
         "__DebugAdapter",
         "__Profiler"
     ],
-    "peacock.color": "#89707e",
+    "factorio.versions": [
 }
