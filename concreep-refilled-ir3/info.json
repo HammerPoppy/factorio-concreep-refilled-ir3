@@ -1,8 +1,8 @@
 {
   "name": "concreep-refilled-ir3",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "title": "Concreep Refilled IR3",
-  "author": "Mylon, MarximusMaximus, Hammak",
+  "author": "Mylon, MarximusMaximus, NocturnalScream, Hammak",
   "contact": "",
   "homepage": "",
   "description": "Roboports automatically place and upgrade concrete and landfill within their reach. IR3 version includes tarmac.",

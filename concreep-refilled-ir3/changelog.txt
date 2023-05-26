@@ -1,13 +1,23 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.0
-Date: 2021-11-29
+Version: 1.0.2
+Data: 2022-07-25
+  Changes:
+    - fixed issues with surfaces preventing the mod from exectuing correctly
+
+Version: 1.0.1
+Data: 2022-07-25
+  Changes:
+    - FORKED from Concreep Refilled 1.0.0
+    - added many constumizable settings - such as surfaces concreep should run on - update intervals etc.
+
+Data: 2021-11-29
   Changes:
     - FORKED from Concreep 1.4.6
     - Lots of refactoring
     - Removed under roboport pattern matching creeping
     - Merged in support for filling water tiles with landfill
     - Added more settings to allow better control of how the creep creeps
-    - Mod now wakes up after a little while to check if there is work to do after it's completed
-      work (so if the environment around a roboport changes, it will get handled without
+    - Mod now wakes up after a little while to check if there is work to do after it's completed 
+      work (so if the environment around a roboport changes, it will get handled without 
       needing to remove and replace roboport)
     - Wakeup re-scan logic is spread across multiple frames for very low UPS hit
